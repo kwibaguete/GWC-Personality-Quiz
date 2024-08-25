@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Belinda's Personality Quiz</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Are you the player or the NPC in a story-based videogame?</h1>
+		<p>Choose the answer that best describes you for each question!</p>
+	</header>
+
+	<main>
+
+		<h2>Do you like change?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/yes-change.jpg" alt="A man with a yellow top and white pants holding a hiking stick while walking on a trail that is next to a river.">
+        <br>
+        <button id="q1a1">Yes! It's exciting.</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/change.jpg" alt="A cockatoo hiding behind branches with green leaves of a tree.">
+        <br>
+        <button id="q1a2">No, I prefer how things are.</button>
+      </div>
+
+    </div> 
+    
+    <h2>A stranger needs help with something, but you need to attend an important meeting. What do you do?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/help-stranger.jpg" alt="A gray picture of two hands holding each other.">
+        <br>
+        <button id="q2a1">Help the stranger! 
+          <br>I'll deal with the consequences later.</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/meeting.jpg" alt="A meeting with papers, letters, and orange mugs on the table. People are discussing things around the table.">
+        <br>
+        <button id="q2a2">Go to my meeting. I can't miss it!</button>
+      </div>
+
+    </div> 
+    
+    <h2>Do you like to give back to someone who has helped you?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/giving.jpg" alt="A torso shot of a man in a suit giving a red gift that sits in both of his hands towards the camera.">
+        <br>
+        <button id="q3a1">Yes! It shows that I appreciated their help.</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/no-giving.jpg" alt="A person's hand with green gloves doing a thumbs down.">
+        <br>
+        <button id="q3a2">No, I don't need to give back.</button>
+      </div>
+
+    </div> 
+    
+    <h2 id="result">You are...</h2>
+    <p id="description"></p>
+
+    <button id="reset"> Reset </button>
+    
+  </main>
+  </body>
+</html>
